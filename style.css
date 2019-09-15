@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 10%;
+    background: violet;
+}
+
+nav{
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+ul li:nth-child(1){
+    margin: auto 20px;
+}
+
+ul li:nth-child(2){
+    margin: auto 0px auto 20px;
+}
+
+ul li a, a{
+    text-decoration: none;
+    color: #555;
+    transition: all 1s ease-in-out;
+}
+
+a:hover{
+    color: #d107a5;
+}
